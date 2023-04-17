@@ -3,7 +3,7 @@ const fs = require('./node_modules/graceful-fs/graceful-fs');
 const inquirer = require("inquirer");
 //const path = require('path');
 //const writeFile = require('fs/promises');
-const { Circle, Rectangle, Triangle, Polygon, Square } = require("./lib/shapes");
+const { Circle, Rectangle, Triangle, Square } = require("./lib/shapes");
 
 
 class Logo {
@@ -56,7 +56,7 @@ const question = [
         type: 'list',
         name: 'pixel-img',
         message: 'Please can you enter the shape.',
-        choices: ['Circle', 'Rectangle', 'Triangle', 'Polygon', 'Square'],
+        choices: ['Circle', 'Rectangle', 'Triangle', 'Square'],
     },
 
 ];
@@ -130,9 +130,6 @@ async function init() {
         user_shape = new Triangle();
         console.log("User selected triangle shape");
 
-    } else if (user_shape_type === 'Polygon' || user_shape_type === 'polygon') {
-        user_shape = new Polygon();
-        console.log("User selected polygon shape");
 
     } else if (user_shape_type === 'Square' || user_shape_type === 'square') {
         user_shape = new Square();
