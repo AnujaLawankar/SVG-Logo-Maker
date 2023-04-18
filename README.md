@@ -3,10 +3,10 @@
 ## Description
      
      
-1. "SVG-Logo-Maker" is used to generated logo for the websites.
+1. "SVG-Logo-Maker" is used to generate logo for the websites.
 2.  "SVG-Logo-Maker" used application prompts  to generate logo on the based of color, shape and text provided by user.
-3.  "SVG-Logo-Maker" generated logo based on some condition like, only  3 characters are accepted as logo-text, All colors are accepted for text-color and shape color, But the only four shapes are accepted in SVG logo maker.
-4.  The logo file is generated and named as logo.svg in SVG-logo-Maker directory.
+3.  "SVG-Logo-Maker" generate logo based on some condition like, only  3 characters are accepted as logo-text, All colors are accepted for text-color and shape color, But the only four shapes (Circle,Rectangle,square,triangle) are accepted in SVG logo maker.
+4.  The logo file is generate and named as logo.svg in SVG-logo-Maker directory.
 
 ## Steps I followed:-
 
@@ -42,7 +42,7 @@
 ## URLs:-
 Here, you can find the walkthrough vedio for "SVG-Logo-Maker":- 
 
-https://drive.google.com/file/d/1ZdoOfohuXXhLZFvUoXPJVyXfHDx_MWIS/view
+https://drive.google.com/file/d/1sAY2DFrCy2xFhcq668yZbF7V7vlg_27H/view
 
 
 
