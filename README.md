@@ -5,7 +5,7 @@
      
 1. "SVG-Logo-Maker" is used to generate logo for the websites.
 2.  "SVG-Logo-Maker" used application prompts  to generate logo on the based of color, shape and text provided by user.
-3.  "SVG-Logo-Maker" generate logo based on some condition like, only  3 characters are accepted as logo-text, All colors are accepted for text-color and shape color, But the only four shapes (Circle,Rectangle,square,triangle) are accepted in SVG logo maker.
+3.  "SVG-Logo-Maker" generate logo based on some condition like, only  3 characters are accepted as logo-text, All colors are accepted for text-color and shape color, But the only four shapes (Circle, Rectangle, square, triangle) are accepted in SVG logo maker.
 4.  The logo file is generate and named as logo.svg in SVG-logo-Maker directory.
 
 ## Steps I followed:-
@@ -16,7 +16,7 @@
 
 3.   Then I used "git clone <ssh key>" of "SVG-Logo-Maker" and clone the repository.
   
-4.   Then I created index.js, gitignore,package.json shapes.js, shapes.test.js and README files. Using touch command.
+4.   Then I created index.js, gitignore, package.json, shapes.js, shapes.test.js and README files. Using touch command.
 
 5. Then created examples and lib directories by using mkdir command.
 
@@ -40,7 +40,7 @@
  
 
 ## URLs:-
-Here, you can find the walkthrough vedio for "SVG-Logo-Maker":- 
+Here, you can find the walkthrough video for "SVG-Logo-Maker":- 
 
 https://drive.google.com/file/d/1sAY2DFrCy2xFhcq668yZbF7V7vlg_27H/view
 
