@@ -1,64 +1,72 @@
 # SVG Logo Maker
 
 ## Description
- 
-
+     
+     
+1. "SVG-Logo-Maker" is used to generated logo for the websites.
+2.  "SVG-Logo-Maker" used application prompts  to generate logo on the based of color, shape and text provided by user.
+3.  "SVG-Logo-Maker" generated logo based on some condition like, only  3 characters are accepted as logo-text, All colors are accepted for text-color and shape color, But the only four shapes are accepted in SVG logo maker.
+4.  The logo file is generated and named as logo.svg in SVG-logo-Maker directory.
 
 ## Steps I followed:-
 
-1.   First I created the "New Repository" i.e "assignment-module-4" in my GitHub setup.
+1.   First I created the "New Repository" i.e "SVG-Logo-Maker" in my GitHub setup.
 
-2.   In GitBash I navigate to the repository where I have to clone my "assignment-module-4" repository. Using "cd" command.
+2.   In GitBash I navigate to the repository where I have to clone my "SVG-Logo-Maker" repository. Using "cd" command.
 
-3.   Then I used "git clone <ssh key>" of "assignment-module-4" and clone the repository.
+3.   Then I used "git clone <ssh key>" of "SVG-Logo-Maker" and clone the repository.
   
-4.   Then I created "index.html", "style.css" and "README" files. Using touch command.
+4.   Then I created index.js, gitignore,package.json shapes.js, shapes.test.js and README files. Using touch command.
 
-5.    Run "code ." command to open VS.
+5. Then created examples and lib directories by using mkdir command.
 
-6.    Executed the code.
+6.  Run "code ." command to open VS.
 
-7.    After that, I added code to GitHub by using "git add -A" command on Gitbash. 
+7.  Executed the code by installing npm install command.
+
+8.  Write the code and run by using npm start command and test the shapes.test.js by using npm run test command.
+
+9.  After that, I added code to GitHub by using "git add -A" command on Gitbash. 
  
-8.    Commit the code and add commit message by using "git commit -m <message>".
+10.   Commit the code and add commit message by using "git commit -m <message>".
 
-9.   Pull code by using "git pull origin main".
+11.   Pull code by using "git pull origin main".
 
-10.  Push the code by using "git push origin main".
+12.  Push the code by using "git push origin main".
 
-11.  All the final code push in my "assignment-module-4" repository.
+13.  All the final code push in my "SVG-Logo-Maker" repository.
 
 
  
 
 ## URLs:-
-Here, you can find the webpage.
+Here, you can find the walkthrough vedio for "SVG-Logo-Maker":- 
+
+https://drive.google.com/file/d/1ZdoOfohuXXhLZFvUoXPJVyXfHDx_MWIS/view
 
 
 
 Here, you can find the GitHub URL:-
-GitHub URL:- https://github.com/AnujaLawankar/assignment-module-4
+
+https://github.com/AnujaLawankar/SVG-Logo-Maker
+
+
+
 
 
 ## Installation
 
-N/A
+=> npm install
+
 
 ## Usage
 
-N/A
+=> Used to generate SVG logo. 
 
-## Credits
-
-N/A
 
 ## License
 
-N/A
+ => MIT  License
 
-## Assets
 
-The following image demonstrates the website appearance:
-1. To start a code quiz user have to click on start button.
-![Website](./assets/images/screenshot1.png)
 
