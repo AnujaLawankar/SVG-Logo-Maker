@@ -1,20 +1,26 @@
+
+//import node_modules package
 const fs = require('./node_modules/graceful-fs/graceful-fs');
 
+//import inquire package
 const inquirer = require("inquirer");
 //const path = require('path');
 //const writeFile = require('fs/promises');
+
+//declare class from lib directory
 const { Circle, Rectangle, Triangle, Square } = require("./lib/shapes");
 
 
 class Logo {
 
+    //constructor
     constructor() {
         this.textElement = "";
         this.shapeElement = "";
 
 
     }
-
+    // In svg file showing the data 
     render() {
         return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shapeElement}${this.textElement}</svg>`;
 
@@ -31,6 +37,8 @@ class Logo {
 
     }
 }
+
+// question for  CLI input
 const question = [
 
     {
@@ -61,6 +69,7 @@ const question = [
 
 ];
 
+// return the data in the svg file 
 function writeFile(filename, data) {
     console.log("Write [" + data + "] to   [" + filename + "]");
     fs.writeFile(filename, data, function (err) {
@@ -76,6 +85,7 @@ function writeFile(filename, data) {
 
 }
 
+//initialize the function and it is async because have to wait for answer for a questions.
 async function init() {
 
 
@@ -143,7 +153,7 @@ async function init() {
 
     user_shape.setcolor(user_shape_color);
 
-
+    // object of logo
     var svg = new Logo();
 
     svg.setTextElement(user_text, user_font_color);
@@ -159,5 +169,5 @@ async function init() {
 }
 
 
-
+// call function init
 init();
